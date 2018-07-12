@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#405F8B",
+  "navigationBarTitleText": "文与学",
+  "navigationBarTextStyle": "white"
+}
