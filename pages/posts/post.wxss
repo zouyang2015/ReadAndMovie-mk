@@ -19,35 +19,39 @@ image {
 .post-author-date {
   display: flex;
   align-items: center;
-  margin: 10rpx 10rpx 20rpx 10rpx;
+  padding: 10px 10rpx 0 10rpx;
 }
 .post-author {
+  flex: 0 0 60rpx;
   width: 60rpx;
   height: 60rpx;
+  border-radius: 50%;
 }
 .post-date {
+  flex: 1;
   margin: 0 0 0 20rpx;
 }
 .post-title {
-  margin: 0 0 10px 20rpx;
+  padding: 20px 0 0 20rpx;
   font-size: 34rpx;
   font-weight: 600;
   color: #333333;
+  width: 100%;
 }
 .post-image {
-  width: 100%;
   height: 340rpx;
-  margin: 0 0 15px 0;
+  margin: 15px 0 15px 0;
 }
 .post-content {
+  display: flex;
   color: #666;
   font-size: 28rpx;
-  margin: 0 20rpx 0 20rpx;
+  padding: 0 20rpx 0 20rpx;
   letter-spacing: 2rpx;
   line-height: 40rpx;
 }
 .post-like {
-  display: flex;
+  display:block;
   align-items: center;
   font-size: 13px;
   line-height: 16px;
